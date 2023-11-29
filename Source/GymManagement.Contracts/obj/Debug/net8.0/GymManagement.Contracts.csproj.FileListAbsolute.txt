@@ -1,0 +1,11 @@
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Contracts\bin\Debug\net8.0\GymManagement.Contracts.deps.json
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Contracts\bin\Debug\net8.0\GymManagement.Contracts.dll
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Contracts\bin\Debug\net8.0\GymManagement.Contracts.pdb
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Contracts\obj\Debug\net8.0\GymManagement.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Contracts\obj\Debug\net8.0\GymManagement.Contracts.AssemblyInfoInputs.cache
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Contracts\obj\Debug\net8.0\GymManagement.Contracts.AssemblyInfo.cs
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Contracts\obj\Debug\net8.0\GymManagement.Contracts.csproj.CoreCompileInputs.cache
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Contracts\obj\Debug\net8.0\GymManagement.Contracts.dll
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Contracts\obj\Debug\net8.0\refint\GymManagement.Contracts.dll
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Contracts\obj\Debug\net8.0\GymManagement.Contracts.pdb
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Contracts\obj\Debug\net8.0\ref\GymManagement.Contracts.dll

@@ -1,0 +1,11 @@
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Domain\bin\Debug\net8.0\GymManagement.Domain.deps.json
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Domain\bin\Debug\net8.0\GymManagement.Domain.dll
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Domain\bin\Debug\net8.0\GymManagement.Domain.pdb
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Domain\obj\Debug\net8.0\GymManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Domain\obj\Debug\net8.0\GymManagement.Domain.AssemblyInfoInputs.cache
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Domain\obj\Debug\net8.0\GymManagement.Domain.AssemblyInfo.cs
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Domain\obj\Debug\net8.0\GymManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Domain\obj\Debug\net8.0\GymManagement.Domain.dll
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Domain\obj\Debug\net8.0\refint\GymManagement.Domain.dll
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Domain\obj\Debug\net8.0\GymManagement.Domain.pdb
+C:\Repos\DomeGymManagement.Backend\Source\GymManagement.Domain\obj\Debug\net8.0\ref\GymManagement.Domain.dll

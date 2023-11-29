@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "g3Utc5Nby5j+z7LJc4av3Bvr6Nvco9VlkaHcWdPW+J3o+EmNQ3tuYR1P518DJo8pwzp8Eq7wXeEa3nT5S3YP1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Repos\\DomeGymManagement.Backend\\Source\\GymManagement.Api\\GymManagement.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LasseJonMarquardtFre\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
+    "C:\\Users\\LasseJonMarquardtFre\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\LasseJonMarquardtFre\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\LasseJonMarquardtFre\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\LasseJonMarquardtFre\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\LasseJonMarquardtFre\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\LasseJonMarquardtFre\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
