@@ -1,10 +1,7 @@
-@host=http://localhost:5195
-@adminId=d63c1687-40ea-4388-b298-fc124939f897
-
-POST {{host}}/Subscriptions
+POST https://localhost:7240/Subscriptions
 Content-Type: application/json
 
 {
   "SubscriptionType": "Free",
-  "AdminId": "{{adminId}}"
+  "AdminId": "323bc9c7-3910-4164-9b0e-d43d98783616"
 }
