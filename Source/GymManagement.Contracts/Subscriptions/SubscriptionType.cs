@@ -4,5 +4,6 @@ public enum SubscriptionType
 {
     Free,
     Starter,
-    Pro
+    Pro,
+    Starteasr
 }

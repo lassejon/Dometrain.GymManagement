@@ -3,6 +3,7 @@ using GymManagement.Application.Subscriptions.Commands.CreateSubscription;
 using GymManagement.Contracts.Subscriptions;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using DomainSubscriptionType = GymManagement.Domain.Subscriptions.SubscriptionType;
 
 namespace GymManagement.Api.Controllers;
 
@@ -18,14 +19,24 @@ public class SubscriptionsController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> CreateSubscription([FromBody] CreateSubscriptionRequest request)
+    public async Task<IActionResult> CreateSubscription([FromBody] SubscriptionRequest request)
     {
-        var command = new CreateSubscriptionCommand(request.SubscriptionType.ToString(), request.AdminId);
+        if (!Enum.TryParse(typeof(DomainSubscriptionType), 
+                request.SubscriptionType.ToString(), 
+                out var subscriptionType))
+        {
+            return Problem(
+                statusCode: StatusCodes.Status400BadRequest,
+                title: "Invalid subscription type",
+                detail: $"Could not convert type {typeof(SubscriptionType)} to {typeof(Domain.Subscriptions.SubscriptionType)}. Value: {request.SubscriptionType}");
+        }
+        
+        var command = new CreateSubscriptionCommand((DomainSubscriptionType) subscriptionType, request.AdminId);
         var subscriptionResult= await _mediator.Send(command);
 
         return subscriptionResult.MatchFirst(
             value => Created("Ok", new SubscriptionResponse(value.Id, request.SubscriptionType)), 
-            error => Problem());
+            error => Problem(detail: error.Description));
     }
 
     [HttpGet("{subscriptionId:guid}")]
@@ -37,7 +48,7 @@ public class SubscriptionsController : ControllerBase
         return subscriptionResult.MatchFirst(
             value => Ok(new SubscriptionResponse(
                 value.Id,
-                Enum.Parse<SubscriptionType>(value.SubscriptionType ?? "Free"))),
+                Enum.Parse<SubscriptionType>(value.SubscriptionType.ToString() ?? "Free"))),
             error => Problem());
     }
 }

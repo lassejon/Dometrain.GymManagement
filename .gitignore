@@ -1,0 +1,8 @@
+./Source/GymManagement.Api/bin/*
+./Source/GymManagement.Api/obj/*
+./Source/GymManagement.Application/bin/*
+./Source/GymManagement.Application/obj/*
+./Source/GymManagement.Domain/bin/*
+./Source/GymManagement.Domain/obj/*
+./Source/GymManagement.Infrastructure/bin/*
+./Source/GymManagement.Infrastructure/obj/*
