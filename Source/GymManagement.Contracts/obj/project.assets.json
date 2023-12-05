@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\LasseJonMarquardtFre\\.nuget\\packages\\": {},
+    "C:\\Users\\LJMF\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\DomeGymManagement.Backend\\Source\\GymManagement.Contracts\\GymManagement.Contracts.csproj",
+      "projectUniqueName": "C:\\Repos\\Dometrain.GymManagement\\Source\\GymManagement.Contracts\\GymManagement.Contracts.csproj",
       "projectName": "GymManagement.Contracts",
-      "projectPath": "C:\\Repos\\DomeGymManagement.Backend\\Source\\GymManagement.Contracts\\GymManagement.Contracts.csproj",
-      "packagesPath": "C:\\Users\\LasseJonMarquardtFre\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\DomeGymManagement.Backend\\Source\\GymManagement.Contracts\\obj\\",
+      "projectPath": "C:\\Repos\\Dometrain.GymManagement\\Source\\GymManagement.Contracts\\GymManagement.Contracts.csproj",
+      "packagesPath": "C:\\Users\\LJMF\\.nuget\\packages\\",
+      "outputPath": "C:\\Repos\\Dometrain.GymManagement\\Source\\GymManagement.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\LasseJonMarquardtFre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LJMF\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

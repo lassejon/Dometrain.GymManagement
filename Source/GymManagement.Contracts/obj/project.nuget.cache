@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zBahQy4drOiax3+TqpAlQrsC3bOQVDosRKRULcwgQlxuDlynLKJaVzAmzGS0oYkI7RIW6jCh/RAiqdilggYYfw==",
+  "dgSpecHash": "Kc9G5x87jFohusZosk4Cos4JCnlMrg9ZEBku+2Gcg5Ja4rIUbchbpm1q3qlEGAlx7ppVePMhRnRNFktqfkKOnQ==",
   "success": true,
-  "projectFilePath": "C:\\Repos\\DomeGymManagement.Backend\\Source\\GymManagement.Contracts\\GymManagement.Contracts.csproj",
+  "projectFilePath": "C:\\Repos\\Dometrain.GymManagement\\Source\\GymManagement.Contracts\\GymManagement.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
