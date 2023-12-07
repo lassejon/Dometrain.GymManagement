@@ -1,15 +1,16 @@
-﻿using GymManagement.Application.Common.Interfaces;
+﻿using ErrorOr;
+using GymManagement.Application.Common.Interfaces;
+using GymManagement.Application.Queries.GetSubscription;
 using GymManagement.Domain.Subscriptions;
 using MediatR;
-using ErrorOr;
 
-namespace GymManagement.Application.Queries.GetSubscription;
+namespace GymManagement.Application.Subscriptions.Queries.GetSubscription;
 
-public class GetSubscriptionCommandHandler : IRequestHandler<GetSubscriptionQuery, ErrorOr<Subscription>>
+public class GetSubscriptionQueryHandler : IRequestHandler<GetSubscriptionQuery, ErrorOr<Subscription>>
 {
     private readonly ISubscriptionRepository _subscriptionsRepository;
 
-    public GetSubscriptionCommandHandler(ISubscriptionRepository subscriptionsRepository)
+    public GetSubscriptionQueryHandler(ISubscriptionRepository subscriptionsRepository)
     {
         _subscriptionsRepository = subscriptionsRepository;
     }
